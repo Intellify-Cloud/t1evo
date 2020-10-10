@@ -1,3 +1,5 @@
+- name: Home
+  link: /
 - name: Blog
   link: /blog/
 - name: About
@@ -6,3 +8,5 @@
   link: /contact/
 - name: Bond Calculator
   link: /bond-calculator/
+- name: Affordability Calculator
+  link: /affordability-calculator/

@@ -91,10 +91,18 @@
 
 	.post-content {
 		padding: 0 0 40px 0;
+		
+		
+	}
+}
 
-		.button {
-			margin: 30px 0 0 0;
-		}
+.button {
+	margin: 20px 0 0 0;
+	color: rgb(0, 0, 0);
+
+	&:hover {
+		color: #555;
+		text-decoration: none;
 	}
 }
 
