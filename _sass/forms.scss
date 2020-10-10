@@ -14,10 +14,12 @@
 	cursor: pointer;
 }
 
+// HERO BUTTON
 .button.alt a {
 	background: rgba(255,255,255,0);
-	border: 2px solid rgba(255, 255, 255, 1);
-	color: #fff;
+	border: 1px solid rgba(255, 255, 255, 0.945);
+	color: rgb(0, 0, 0);
+	font-weight: bolder;
 }
 
 .button.alt a:hover {

@@ -26,6 +26,10 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
   }
 
+  h2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+  }
+
   p {
 	color: rgb(255, 255, 255);
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
@@ -64,8 +68,8 @@
 .sub-hero {
   color: #ffffff;
   text-align: center;
-  height: 30vh;
-  min-height: 340px;
+  height: 25vh;
+  min-height: 430px;
   background-color: rgb(27, 18, 109);
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,6 +84,11 @@
   }
 
   h1 {
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  }
+
+  h2 {
     font-size: 3.5rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
   }
