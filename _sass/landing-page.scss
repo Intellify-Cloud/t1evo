@@ -1,0 +1,130 @@
+.hero {
+	color: #ffffff;
+	text-align: center;
+	height: 40vh;
+	min-height: 550px;
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	&:before {
+		content: "";
+		background: linear-gradient(to bottom, rgba(0, 0, 0, .65) 0, rgba(0, 0, 0, 0) 100%);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 300px;
+	}
+
+	p {
+		color: rgb(255, 255, 255);
+	}
+
+	.inner-hero {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.hero-text-container {
+		width: 600px;
+		text-align: left;
+		// h1,
+		// h2,
+		// p
+	}
+	
+	.hero-text-right {
+		position: absolute;
+		right: 0;
+	}
+
+	.button {
+		background-color: rgba(255, 255, 255, 0.699);
+		// border-radius: 60px;
+		// text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+		font-size: 1.3rem;
+		border: rgb(25, 29, 255);
+	}
+}
+
+
+.sub-hero {
+	color: #ffffff;
+	text-align: center;
+	height: 30vh;
+	min-height: 340px;
+	background-color: rgb(27, 18, 109);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	// margin-top: 40px;
+    padding: 20px;
+
+	p {
+		color: #fff;
+		font-weight: bolder;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+	
+
+
+	.inner-hero {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		margin-top: 50px;
+	}
+
+	.hero-text-container {
+		width: 600px;
+		text-align: left;
+	}
+}
+
+.sub-hero .button {
+	background-color: rgba(255, 255, 255, 0.699);
+	// border-radius: 60px;
+	// text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+	font-size: 1.3rem;
+	border: rgba(255, 255, 255, 0);
+	color: #000;
+
+	
+	.hero-text-right {
+		position: absolute;
+		right: 0;
+	}
+}
+
+.image {
+	text-align: center;
+}
+
+.bottom-cta {
+	text-align: center;
+}
+
+@media #{$desktop} {
+	.flex {
+		@include flexbox;
+		align-items: center;
+		flex-direction: row;
+
+		.text,
+		.image {
+			-webkit-flex: 1;
+			flex: 1;
+			padding: 0 20px;
+		}
+	}
+
+	.content section:nth-child(even) .flex {
+		flex-direction: row-reverse;
+	}
+}
