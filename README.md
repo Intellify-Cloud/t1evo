@@ -43,10 +43,6 @@ Run `jekyll` commands through Bundler to ensure you're using the right versions:
 $ bundle exec jekyll serve
 ~~~
 
-## Editing
-
-Frisco is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
-
 ### Posts
 
 * Add, update or remove a post in the *Posts* collection.
