@@ -88,6 +88,10 @@ defaults:
     values:
       layout: "default"
   - scope:
+      path: "affordability-calculator.html"
+    values:
+      layout: "default"
+  - scope:
       path: ""
       type: "pages"
     values:
