@@ -7,8 +7,7 @@
 #   link: /about/
 - name: Contact
   link: /contact/
-- name: Affordability Calculator
-  link: /affordability-calculator/
 - name: Bond Calculator
   link: /bond-calculator/
-
+- name: Affordability Calculator
+  link: /affordability-calculator/
