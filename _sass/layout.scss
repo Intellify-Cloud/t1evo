@@ -1,5 +1,12 @@
 // =================== BASE
 
+.editable a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 html {
   background: #ffffff;
 }

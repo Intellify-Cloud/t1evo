@@ -2,7 +2,8 @@ left_links:
   - name: Home
     link: /
   - name: Blog
-    link: /blog/
+    link: https://evogroup.co.za/archives/
+    new_window: true
   - name: About
     link: /about/
   - name: Contact
