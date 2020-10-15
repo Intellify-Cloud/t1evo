@@ -3,11 +3,12 @@
 - name: Blog
   link: https://evogroup.co.za/archives/
   new_window: true
-- name: About
-  link: /about/
+# - name: About
+#   link: /about/
 - name: Contact
   link: /contact/
-- name: Bond Calculator
-  link: /bond-calculator/
 - name: Affordability Calculator
   link: /affordability-calculator/
+- name: Bond Calculator
+  link: /bond-calculator/
+
