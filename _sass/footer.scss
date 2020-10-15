@@ -1,9 +1,11 @@
 footer {
 	font-size: .6em;
-	position: fixed;
+	// position: fixed;
 	background: #2b2b40;
 	color: #fff;
 	width: 100%;
+	min-height: 100px;
+	bottom: 0;
 
 	&,
 	a {
